@@ -10,8 +10,8 @@ export default function Home(){
                     <img src={bgImg} className="w-full rounded-4xl p-2 " alt="" />
                 </div>
                 <div className="w-full sm:w-[50%] flex flex-col items-center sm:items-start gap-3 font-semibold">
-                    <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold uppercase">your health, our priority</h1>
-                    <p className="text-center sm:text-left sm:text-2xl md:text-3xl w-[95%] ">At <b>Medhub</b> we offer a full range of healthcare service around you. Experience high-quality compassionate care with experts who are here to support your health journey.</p>
+                    <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold uppercase">your data is safe</h1>
+                    <p className="text-center sm:text-left sm:text-2xl md:text-3xl w-[95%] ">At <b>Medhub</b> we offer a full range of healthcare data analysis services around you. Experience high-quality service in managing your health data with our experts who are here to support your health journey.</p>
                     <ul className="flex items-center gap-3 capitalize">
                         <li className="border-2 border-solid border-blue-500 p-1 rounded-lg ">
                             <Link to="/about">learn more</Link>
