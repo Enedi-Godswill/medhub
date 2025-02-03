@@ -21,7 +21,7 @@ export default function Footer(){
                 </li>
             </ul>
             <hr className="w-[90%] bg-white h-[5px] rounded " />
-            <h2 className="mb-4">@Copyright of Amadi Favour</h2>
+            <h2 className="mb-4">@Copyright of Adeh Joy</h2>
         </div>
     )
 }
