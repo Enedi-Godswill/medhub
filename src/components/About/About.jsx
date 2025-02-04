@@ -2,6 +2,8 @@
 import Navbar from "../Navbar";
 import barChart from "../assets/bar-chart.jpg"
 import { Link } from "react-router-dom";
+import AboutInfo from "./AboutInfo";
+import Footer from "../Footer";
 
 export default function About(){
     return(
@@ -21,9 +23,8 @@ export default function About(){
             </div>
 
             {/* about information */}
-            <div>
-                
-            </div>
+            <AboutInfo />
+            <Footer />
 
         </div>
     )

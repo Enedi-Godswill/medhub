@@ -1,23 +1,19 @@
 
+import { Link } from "react-router-dom"
+
 export default function Footer(){
     return(
         <div className="flex flex-col justify-center items-center gap-3 p-3 font-semibold bg-gradient-to-r bg-blue-500 text-white text-xs">
             <h1 className="text-2xl mt-3 uppercase">medhub</h1>
             <ul className="flex justify-center items-center gap-3 capitalize">
                 <li>
-                    <p>Contact us</p>
+                    <Link to="/contact">Contact us</Link>
                 </li>
                 <li>
-                    <p>about us</p>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <a href="#">our services</a>
-                </li>
-                <li>
-                    <p>team</p>
-                </li>
-                <li>
-                    <p>FAQs</p>
+                    <Link to="/signup">Join Us</Link>
                 </li>
             </ul>
             <hr className="w-[90%] bg-white h-[5px] rounded " />
