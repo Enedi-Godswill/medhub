@@ -9,7 +9,7 @@ export default function Clients(){
                 <h1 className="font-bold uppercase text-2xl">what our members saying about us</h1>
                 <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, adipisci! Voluptas aliquam dolores unde iste pariatur accusantium facere?</p>
             </div>
-            <div className="w-[25rem] flex flex-col justify-center gap-4 p-2 bg-white rounded-md ">
+            <div className="w-[25rem] flex flex-col justify-center gap-4 p-2 bg-white text-black rounded-md ">
                 <div className="flex justify-between items-center gap-2 ">
                     <div className="flex gap-2">
                         <img src={testImg} className="rounded-full w-[2rem] " alt="" />
