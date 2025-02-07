@@ -7,7 +7,7 @@ import Gmap from "../assets/Gmap.png"
 export default function ContactUs(){
     return(
         <div className="flex flex-col sm:flex-row justify-around items-center gap-5 text-xs md:text-xl p-8 ">
-            <ul className="w-[30rem] flex flex-wrap gap-6 mb-4 ml-5 ">
+            <ul className="w-full sm:w-[30rem] flex flex-wrap gap-6 mb-4 ml-5 ">
                 <li className="font-semibold flex flex-col gap-1 capitalize ">
                     <AiOutlineMail className="text-xs sm:text-2xl" />
                     <h1 className="font-bold ">Email</h1>
